@@ -1,0 +1,224 @@
+{
+  "verifier_model": "openai/gpt-oss-120b",
+  "claims_file": "eval\\claims_quantum.json",
+  "evidence_check": true,
+  "prompt_version": "v3",
+  "verdicts": [
+    {
+      "claim_id": "C1",
+      "label": "etayee",
+      "evidence": "... it remains vulnerable to adversarial attacks ...",
+      "reason": "The abstract explicitly states that quantum machine learning remains vulnerable to adversarial attacks, matching the claim.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C2",
+      "label": "etayee",
+      "evidence": "the quantum adversarial machine learning field has emerged to study ... possible attacks, and novel quantum-enhanced defense strategies ... We also review the theoretical underpinnings of this area",
+      "reason": "All elements of the claim (subject, attacks, defenses, theoretical foundations) are explicitly stated in the abstract.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C3",
+      "label": "etayee",
+      "evidence": "In this survey, we provide a detailed overview on quantum adversarial machine learning ... We also review the theoretical underpinnings of this area, emerging trends, and critical challenges.",
+      "reason": "The abstract explicitly states that the survey reviews emerging trends and critical challenges, matching the claim.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C4",
+      "label": "etayee",
+      "evidence": "we introduce a training method for parametrized quantum circuits (PQCs) that can be used to solve RL tasks ... based on the deep Q-learning algorithm",
+      "reason": "All elements of the claim are directly stated in the abstract",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C5",
+      "label": "etayee",
+      "evidence": "We provide insight into why the performance of a VQA-based Q-learning algorithm crucially depends on the observables of the quantum model ...",
+      "reason": "The abstract explicitly states that performance crucially depends on the observables, matching the claim exactly",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C6",
+      "label": "etayee",
+      "evidence": "We confirm that similar to results in classical literature, the architectural choices and hyperparameters contribute more to the agents' success in a RL setting than the number of parameters used in the model.",
+      "reason": "All elements of the claim are directly stated in the abstract.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C7",
+      "label": "etayee",
+      "evidence": "to estimate entries of the quantum kernel matrix one should apply, e.g., the SWAP-test",
+      "reason": "The abstract explicitly states that estimating quantum kernel matrix entries can be done using the SWAP-test.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C8",
+      "label": "etayee",
+      "evidence": "quantum systems are subject to noise, so the quantum states as feature vectors cannot be prepared exactly and this is another source of error in the computation of the quantum kernel matrix",
+      "reason": "The abstract explicitly states that noise prevents exact state preparation and causes error in the kernel matrix computation.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C9",
+      "label": "etayee",
+      "evidence": "the number of such SWAP-tests is a relevant parameter ... quantum systems are subject to noise ... Taking both the above considerations into account, we prove a bound on the performance (generalization error) of the quantum kernel method.",
+      "reason": "All elements of the claim are explicitly stated in the abstract.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C10",
+      "label": "etayee",
+      "evidence": "we identify a constructive framework that captures all standard models based on parametrized quantum circuits: that of linear quantum models ... captures all standard models based on parametrized quantum circuits",
+      "reason": "The abstract explicitly states that all standard parametrized quantum‑circuit models are captured by the linear quantum model framework.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C11",
+      "label": "etayee",
+      "evidence": "how data re‑uploading circuits, an apparent outlier of this framework, can be efficiently mapped into the simpler picture of linear models in quantum Hilbert spaces",
+      "reason": "All elements of the claim are directly stated in the abstract.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C12",
+      "label": "etayee",
+      "evidence": "linear quantum models must utilize exponentially more qubits than data re-uploading models ... while kernel methods additionally require exponentially more data points",
+      "reason": "All claim elements are explicitly stated in the abstract",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C13",
+      "label": "etayee",
+      "evidence": "We implement the Quanvolutional Neural Networks (QNNs) on a quantum computer to recognize handwritten digits, and compare its performance to that of its classical counterpart, the Convolutional Neural Networks (CNNs).",
+      "reason": "The abstract explicitly states that QNNs on a quantum computer are compared to classical CNNs for handwritten digit recognition.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C14",
+      "label": "etayee",
+      "evidence": "we implement the QSVM on the breast cancer dataset and compare it to the classical SVM",
+      "reason": "The abstract explicitly states that a QSVM is applied to the breast cancer dataset and compared with a classical SVM, matching the claim.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C15",
+      "label": "etayee",
+      "evidence": "Finally, we implement the Variational Quantum Classifier (VQC) and many classical classifiers on the Iris dataset to compare their accuracies.",
+      "reason": "The abstract explicitly states that the VQC and many classical classifiers are implemented on the Iris dataset to compare accuracies, matching the claim.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C16",
+      "label": "etayee",
+      "evidence": "quantum algorithm which is capable to approximate any analytic activation functions to any given order of its power series ... approximate any analytic function to any required accuracy",
+      "reason": "All elements of the claim (quantum algorithm, any analytic activation function, arbitrary order via power series) are explicitly stated in the abstract.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C17",
+      "label": "etayee",
+      "evidence": "without the need to measure the states encoding the information",
+      "reason": "The abstract explicitly states the method works without measuring the states encoding information, matching the claim.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C18",
+      "label": "partielle",
+      "evidence": "Thanks to the generality of this construction, any feed-forward neural network may acquire the universal approximation properties according to Hornik’s theorem.",
+      "reason": "The abstract refers to \"any feed-forward neural network\" whereas the claim specifies \"any feed‑forward quantum neural network\" (subject mismatch).",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C19",
+      "label": "etayee",
+      "evidence": "variational quantum circuits (VQC) are used to develop QML architectures on noisy intermediate-scale quantum (NISQ) devices",
+      "reason": "All elements of the claim are explicitly stated in the abstract.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C20",
+      "label": "etayee",
+      "evidence": "We discuss machine learning for the quantum computing paradigm, showcasing our recent theoretical and empirical findings",
+      "reason": "The abstract explicitly states that it showcases recent theoretical and empirical findings, matching the claim.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C21",
+      "label": "etayee",
+      "evidence": "we delve into future directions for studying QML, exploring the potential industrial impacts of QML research",
+      "reason": "The abstract explicitly states that it explores future directions and potential industrial impacts of quantum machine learning research.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C22",
+      "label": "etayee",
+      "evidence": "Specifically, we conducted experiments with three datasets for binary classification, implementing Support Vector Machine (SVM) and Quantum SVM (QSVM) algorithms.",
+      "reason": "The abstract explicitly states that experiments were performed on three binary‑classification datasets using both classical SVM and Quantum SVM, matching the claim.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C23",
+      "label": "partielle",
+      "evidence": "Our findings suggest that the QSVM algorithm outperforms classical SVM on complex datasets ... the performance gap between quantum and classical models increases with dataset complexity",
+      "reason": "The abstract hedges the result with \"suggest that\", while the claim states it as a definite fact, making the claim stronger than the abstract",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C24",
+      "label": "etayee",
+      "evidence": "the performance gap between quantum and classical models increases with dataset complexity ... simple models tend to overfit with complex datasets",
+      "reason": "All claim elements are directly stated in the abstract",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C25",
+      "label": "etayee",
+      "evidence": "Parameterized Quantum Circuits with Quantum Kernels for Machine Learning: A Hybrid Quantum-Classical Approach ... Parameterized Quantum Circuits (PQCs), and particularly Quantum Kernel PQCs, are generally used in the hybrid approach to QML ... we conclude that ... quantum kernels ... offer distinct advantages as a hybrid approach to QML",
+      "reason": "The abstract explicitly states that PQCs with quantum kernels are used as a hybrid quantum‑classical approach to machine learning, matching the claim.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C26",
+      "label": "etayee",
+      "evidence": "apply to Noisy Intermediate-Scale Quantum (NISQ) devices ... can be used to solve all types of machine learning problems including regression, classification, clustering, and dimension reduction",
+      "reason": "The abstract explicitly states that quantum kernel methods apply to NISQ devices and can solve regression, classification, clustering, and dimensionality reduction.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C27",
+      "label": "etayee",
+      "evidence": "quantum advantage can be attained if the quantum kernels, i.e., the quantum feature encodings, are classically intractable",
+      "reason": "The abstract explicitly states that quantum advantage is attainable when quantum feature encodings are classically intractable, matching the claim.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C28",
+      "label": "etayee",
+      "evidence": "We find that the distribution of quantum datasets shares more similarities with its classical counterpart than does the distribution of quantum models",
+      "reason": "The abstract directly states the claim",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C29",
+      "label": "etayee",
+      "evidence": "the unique aspects of quantum data introduce new vulnerabilities to both approaches",
+      "reason": "The abstract explicitly states that unique aspects of quantum data introduce new vulnerabilities to the approaches, matching the claim.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C30",
+      "label": "etayee",
+      "evidence": "including recent numerical experiments and the concept ofcircuit-cutting",
+      "reason": "The abstract explicitly states that it includes recent numerical experiments and the concept of circuit‑cutting for distributed quantum neural networks.",
+      "evidence_in_source": true
+    }
+  ],
+  "stats": {
+    "calls": 30,
+    "prompt_tokens": 33699,
+    "completion_tokens": 10068,
+    "seconds": 224.58530712127686
+  }
+}

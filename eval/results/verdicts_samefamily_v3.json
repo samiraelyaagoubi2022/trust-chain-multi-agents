@@ -1,0 +1,224 @@
+{
+  "verifier_model": "openai/gpt-oss-120b",
+  "claims_file": "eval\\claims_samefamily.json",
+  "evidence_check": true,
+  "prompt_version": "v3",
+  "verdicts": [
+    {
+      "claim_id": "C1",
+      "label": "etayee",
+      "evidence": "RAGEval, a framework designed to assess RAG systems across diverse scenarios by generating high-quality documents, questions, answers, and references through a schema-based pipeline ... Scenario Specific RAG Evaluation Dataset Generation Framework",
+      "reason": "All elements of the claim are explicitly stated in the abstract and title.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C2",
+      "label": "etayee",
+      "evidence": "we propose three novel metrics: Completeness, Hallucination, and Irrelevance",
+      "reason": "The abstract explicitly states that RAGEval proposes the three named novel metrics, matching the claim.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C3",
+      "label": "etayee",
+      "evidence": "Experimental results show that RAGEval outperforms zero-shot and one-shot methods in terms of clarity, safety, conformity, and richness of generated samples.",
+      "reason": "All elements of the claim are explicitly stated in the abstract.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C4",
+      "label": "etayee",
+      "evidence": "Deepchecks: Evaluating Retrieval-Augmented Generation (RAG) ... This paper introduces Deepchecks, a comprehensive framework tailored for evaluating RAG applications",
+      "reason": "The abstract explicitly describes Deepchecks as a comprehensive framework for evaluating RAG applications, matching the claim exactly.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C5",
+      "label": "etayee",
+      "evidence": "Deepchecks' evaluation framework addresses RAG applications evaluation through a multi-faceted approach, root cause analysis and production monitoring",
+      "reason": "All elements of the claim are explicitly stated in the abstract.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C6",
+      "label": "etayee",
+      "evidence": "This paper introduces Deepchecks, a comprehensive framework ... provides a robust foundation for assessing reliability, relevance, and user satisfaction in RAG systems",
+      "reason": "All elements of the claim are explicitly stated in the abstract",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C7",
+      "label": "etayee",
+      "evidence": "We propose a benchmarking framework that systematically varies retrievers (Fusion, HyDe, Hierarchical, SCaNN), indexing methods (HNSW, IVF, Flat), similarity metrics (Cosine, Inner Product, L2), and rerankers (BGE, minilm) over datasets of three scales (small, medium, and large).",
+      "reason": "All elements of the claim are explicitly stated in the abstract.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C8",
+      "label": "etayee",
+      "evidence": "Our experiments reveal that HNSW–IP–Fusion–minilm achieves the strongest semantic performance, with Coverage Retrieval of 0.942, Correctness of 0.909, and Faithfulness of 0.970",
+      "reason": "All numbers, subject, and modality match the abstract exactly",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C9",
+      "label": "etayee",
+      "evidence": "Conversely, IVF–L2–Hierarchical demonstrates the lowest latency (1.736 ns) and cost",
+      "reason": "All elements of the claim (configuration, latency value, lowest cost) are explicitly stated in the abstract.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C10",
+      "label": "etayee",
+      "evidence": "RAGChecker: A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation ... we propose a fine-grained evaluation framework, RAGChecker, that incorporates a suite of diagnostic metrics for both the retrieval and generation modules",
+      "reason": "All elements of the claim are explicitly stated in the abstract",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C11",
+      "label": "etayee",
+      "evidence": "Meta evaluation verifies that RAGChecker has significantly better correlations with human judgments than other evaluation metrics",
+      "reason": "All elements of the claim are explicitly stated in the abstract",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C12",
+      "label": "etayee",
+      "evidence": "Using RAGChecker, we evaluate 8 RAG systems ... revealing insightful patterns and trade‑offs in the design choices of RAG architectures",
+      "reason": "The abstract explicitly states evaluating 8 systems with RAGChecker and revealing insightful patterns and trade‑offs, matching the claim.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C13",
+      "label": "etayee",
+      "evidence": "RAGe: A Retrieval-Augmented Generation Evaluation Framework ... we propose a modular framework for benchmarking ... by focusing on resource telemetry and component recommendation",
+      "reason": "All elements of the claim are explicitly stated in the abstract",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C14",
+      "label": "etayee",
+      "evidence": "By directly correlating retrieval and generation quality with underlying hardware constraints, RAGe supports researchers to identify the most effective, domain-specific RAG setups ... suggesting the best components for a domain-specific dataset",
+      "reason": "All elements of the claim are explicitly stated in the abstract.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C15",
+      "label": "etayee",
+      "evidence": "facilitating rapid prototyping even on consumer‑grade hardware",
+      "reason": "All elements of the claim are directly stated in the abstract.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C16",
+      "label": "etayee",
+      "evidence": "EncouRAGe comprises five modular and extensible components: Type Manifest, RAG Factory, Inference, Vector Store, and Metrics",
+      "reason": "The abstract explicitly states that EncouRAGe comprises the five listed components, matching the claim exactly.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C17",
+      "label": "partielle",
+      "evidence": "including 25k QA pairs and over 51k documents ... Our results show that RAG still underperforms compared to the Oracle Context",
+      "reason": "Number mismatch: claim says 51k documents, abstract says \"over 51k\"",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C18",
+      "label": "etayee",
+      "evidence": "Hybrid BM25 consistently achieves the best results across all four datasets ... observing only marginal performance improvements accompanied by higher response latency",
+      "reason": "All claim elements are directly stated in the abstract",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C19",
+      "label": "etayee",
+      "evidence": "The CRAG benchmark addresses the limitations of existing QA benchmarks in evaluating the diverse and dynamic challenges faced by Retrieval-Augmented Generation (RAG) systems.",
+      "reason": "All elements of the claim are explicitly stated in the abstract.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C20",
+      "label": "partielle",
+      "evidence": "We propose a routing-based domain and dynamic adaptive RAG pipeline",
+      "reason": "The claim attributes the proposal to CRAG, but the abstract attributes it to the authors (we), causing a subject mismatch",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C21",
+      "label": "partielle",
+      "evidence": "Our method achieved superior performance on CRAG and ranked 2nd for Task 2&3 on the final competition leaderboard",
+      "reason": "The claim attributes the performance to CRAG, but the abstract attributes it to 'Our method', causing a subject mismatch.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C22",
+      "label": "etayee",
+      "evidence": "The framework implements and compares three retrieval approaches: naive vector search, reranking, and hybrid vector-keyword search, combined with ReAct agents",
+      "reason": "All elements of the claim are explicitly stated in the abstract.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C23",
+      "label": "etayee",
+      "evidence": "Our experiments demonstrate significant performance improvements through hybrid search methods and structured self‑evaluation prompting, achieving up to 72.7% pass rate on our multi‑metric evaluation framework.",
+      "reason": "All elements of the claim are explicitly stated in the abstract.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C24",
+      "label": "etayee",
+      "evidence": "The results also highlight the importance of prompt engineering in RAG systems, with our custom-prompted agents showing consistent improvements in retrieval accuracy and response quality.",
+      "reason": "The abstract explicitly states that custom‑prompted agents consistently improve retrieval accuracy and response quality, matching the claim.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C25",
+      "label": "etayee",
+      "evidence": "a reference free framework for RAG (Retrieval Augmented generation) based question answering (QA) applications ... THELMA consist of six interdependent metrics specifically designed for holistic, fine grained evaluation of RAG QA applications",
+      "reason": "All elements of the claim are explicitly stated in the abstract.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C26",
+      "label": "etayee",
+      "evidence": "THELMA framework helps developers and application owners evaluate, monitor and improve end to end RAG QA pipelines without requiring labelled sources or reference responses",
+      "reason": "All elements of the claim are explicitly stated in the abstract",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C27",
+      "label": "etayee",
+      "evidence": "We also present our findings on the interplay of the proposed THELMA metrics, which can be interpreted to identify the specific RAG component needing improvement",
+      "reason": "The abstract explicitly states that findings on the interplay of THELMA metrics can identify the specific RAG component needing improvement, matching the claim exactly.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C28",
+      "label": "etayee",
+      "evidence": "... we further introduce semantic stratification, which grounds evaluation in corpus structure by organizing documents into an interpretable global space of entity-based clusters and systematically generating queries for missing strata ...",
+      "reason": "All elements of the claim are explicitly stated in the abstract.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C29",
+      "label": "etayee",
+      "evidence": "This yields (1) formal semantic coverage guarantees across retrieval regimes",
+      "reason": "All elements of the claim (subject, modality, scope) are explicitly stated in the abstract.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "C30",
+      "label": "etayee",
+      "evidence": "show that stratified evaluation yields more stable and transparent assessments while supporting more trustworthy decision-making than aggregate metrics",
+      "reason": "The abstract explicitly states that stratified evaluation yields more stable and transparent assessments compared to aggregate metrics, matching the claim.",
+      "evidence_in_source": true
+    }
+  ],
+  "stats": {
+    "calls": 30,
+    "prompt_tokens": 24971,
+    "completion_tokens": 10360,
+    "seconds": 157.5067789554596
+  }
+}

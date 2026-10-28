@@ -1,0 +1,77 @@
+{
+  "verifier_model": "openai/gpt-oss-120b",
+  "claims_file": "eval\\claims_synthetic2.json",
+  "evidence_check": true,
+  "prompt_version": "v1",
+  "verdicts": [
+    {
+      "claim_id": "S1",
+      "label": "non_etayee",
+      "evidence": "Coverage Retrieval of 0.942, Correctness of 0.909, and Faithfulness of 0.970",
+      "reason": "The abstract reports Faithfulness 0.970, not the claimed 0.870",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "S2",
+      "label": "non_etayee",
+      "evidence": "IVF–L2–Hierarchical demonstrates the lowest latency (1.736 ns) and cost",
+      "reason": "The abstract reports latency of 1.736 ns, not the claimed 2.736 ns",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "S3",
+      "label": "non_etayee",
+      "evidence": "achieving up to 72.7% pass rate on our multi-metric evaluation framework",
+      "reason": "The abstract reports a maximum pass rate of 72.7%, not the claimed 73.7%",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "S4",
+      "label": "non_etayee",
+      "evidence": "Experimental results show that RAGEval outperforms zero-shot and one-shot methods in terms of clarity, safety, conformity, and richness of generated samples.",
+      "reason": "The abstract says RAGEval outperforms, contradicting the claim of underperformance.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "S5",
+      "label": "non_etayee",
+      "evidence": "Hybrid BM25 consistently achieves the best results across all four datasets ... observing only marginal performance improvements accompanied by higher response latency",
+      "reason": "Abstract says Hybrid BM25 is best, not worst, contradicting the claim",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "S6",
+      "label": "non_etayee",
+      "evidence": "...custom-prompted agents showing consistent improvements in retrieval accuracy and response quality...",
+      "reason": "The abstract reports improvements, contradicting the claim of degradation.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "S7",
+      "label": "partielle",
+      "evidence": "generating high-quality documents, questions, answers, and references through a schema-based pipeline ... RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework",
+      "reason": "The abstract confirms the generation of scenario‑specific data via a schema‑based pipeline but does not mention a user study with 200 participants.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "S8",
+      "label": "partielle",
+      "evidence": "semantic stratification, which grounds evaluation in corpus structure by organizing documents into an interpretable global space of entity-based clusters and systematically generating queries for missing strata",
+      "reason": "abstract confirms the grounding and clustering but does not state replication on three additional datasets",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "S9",
+      "label": "partielle",
+      "evidence": "systematically varies retrievers (Fusion, HyDe, Hierarchical, SCaNN), indexing methods (HNSW, IVF, Flat), similarity metrics (Cosine, Inner Product, L2), and rerankers (BGE, minilm) over datasets of three scales (small, medium, and large) ... HNSW–IP–Fusion–minilm achieves the strongest semantic performance, with Coverage Retrieval of 0.942, Correctness of 0.909, and Faithfulness of 0.970",
+      "reason": "Abstract confirms systematic variation across components and dataset sizes, but provides no claim of a 12% improvement over a baseline.",
+      "evidence_in_source": true
+    }
+  ],
+  "stats": {
+    "calls": 9,
+    "prompt_tokens": 5702,
+    "completion_tokens": 2604,
+    "seconds": 52.573143005371094
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "results": [
+    {
+      "claim_id": "F20",
+      "original": "CRAG proposes a routing‑based domain and dynamic adaptive RAG pipeline.",
+      "corrected": "",
+      "original_label": "partielle",
+      "new_label": null,
+      "status": "unfixable"
+    },
+    {
+      "claim_id": "F21",
+      "original": "CRAG achieved superior performance on the benchmark and ranked 2nd for Task 2 and 3.",
+      "corrected": "",
+      "original_label": "partielle",
+      "new_label": null,
+      "status": "unfixable"
+    },
+    {
+      "claim_id": "X1",
+      "original": "Experiments in EvaRAG reveal that the HNSW–IP–Fusion–minilm configuration achieves the strongest semantic performance with a Coverage Retrieval of 0.942, Correctness of 0.909, and Faithfulness of 0.870.",
+      "corrected": "",
+      "original_label": "non_etayee",
+      "new_label": null,
+      "status": "unfixable"
+    },
+    {
+      "claim_id": "X2",
+      "original": "The IVF–L2–Hierarchical configuration demonstrates the lowest latency of 2.736 ns and cost, making it suitable for real-time deployments.",
+      "corrected": "",
+      "original_label": "non_etayee",
+      "new_label": null,
+      "status": "unfixable"
+    },
+    {
+      "claim_id": "X3",
+      "original": "Experiments in RAG Playground demonstrate significant performance improvements through hybrid search methods and structured self-evaluation prompting, achieving up to 73.7% pass rate.",
+      "corrected": "",
+      "original_label": "non_etayee",
+      "new_label": null,
+      "status": "unfixable"
+    },
+    {
+      "claim_id": "X4",
+      "original": "Results from EncouRAGe show that RAG still underperforms compared to the Oracle Context, while Hybrid BM25 consistently achieves the worst results across all four datasets.",
+      "corrected": "Results from EncouRAGe show that RAG still underperforms compared to the Oracle Context, while Hybrid BM25 consistently achieves the best results across all four datasets.",
+      "original_label": "non_etayee",
+      "new_label": "etayee",
+      "new_reason": "All elements of the claim are explicitly stated in the abstract.",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "X5",
+      "original": "Meta evaluation verifies that RAGChecker has significantly worse correlations with human judgments than other evaluation metrics.",
+      "corrected": "Meta evaluation verifies that RAGChecker has significantly better correlations with human judgments than other evaluation metrics.",
+      "original_label": "non_etayee",
+      "new_label": "etayee",
+      "new_reason": "All elements of the claim are explicitly stated in the abstract.",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "X6",
+      "original": "The CRAG benchmark addresses the limitations of existing QA benchmarks by providing a less comprehensive assessment of RAG performance.",
+      "corrected": "The CRAG benchmark addresses the limitations of existing QA benchmarks by providing a more comprehensive assessment of RAG performance.",
+      "original_label": "non_etayee",
+      "new_label": "etayee",
+      "new_reason": "All elements of the claim are directly stated in the abstract",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "X7",
+      "original": "RAGEval proposes three novel metrics named Completeness, Hallucination, and Irrelevance to evaluate LLM generated responses for factual accuracy, as confirmed by a user study with 200 participants.",
+      "corrected": "RAGEval proposes three novel metrics—Completeness, Hallucination, and Irrelevance—to evaluate LLM-generated responses for factual accuracy, and LLM scoring of these metrics shows high consistency with human evaluations.",
+      "original_label": "partielle",
+      "new_label": "etayee",
+      "new_reason": "All elements of the claim are explicitly stated in the abstract.",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "X8",
+      "original": "Findings on the interplay of THELMA metrics can be interpreted to identify the specific RAG component needing improvement in QA applications, and these results were replicated on three additional datasets.",
+      "corrected": "Findings on the interplay of THELMA metrics can be interpreted to identify the specific RAG component needing improvement in QA applications.",
+      "original_label": "partielle",
+      "new_label": "etayee",
+      "new_reason": "All elements of the claim are directly stated in the abstract.",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "X9",
+      "original": "EvaRAG proposes a benchmarking framework that systematically varies retrievers, indexing methods, similarity metrics, and rerankers over datasets of three scales, outperforming the strongest baseline by 12%.",
+      "corrected": "EvaRAG proposes a benchmarking framework that systematically varies retrievers, indexing methods, similarity metrics, and rerankers over datasets of three scales.",
+      "original_label": "partielle",
+      "new_label": "etayee",
+      "new_reason": "All elements of the claim are explicitly stated in the abstract.",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "Y1",
+      "original": "The HNSW–IP–Fusion–minilm configuration achieves Coverage Retrieval 0.942, Correctness 0.909, and Faithfulness 0.870.",
+      "corrected": "The HNSW–IP–Fusion–minilm configuration achieves Coverage Retrieval 0.942, Correctness 0.909, and Faithfulness 0.970.",
+      "original_label": "non_etayee",
+      "new_label": "etayee",
+      "new_reason": "Subject, numbers, and modality exactly match the abstract",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "Y2",
+      "original": "The IVF–L2–Hierarchical configuration demonstrates the lowest latency of 2.736 ns and lowest cost.",
+      "corrected": "The IVF–L2–Hierarchical configuration demonstrates the lowest latency of 1.736 ns and the lowest cost.",
+      "original_label": "non_etayee",
+      "new_label": "etayee",
+      "new_reason": "All elements of the claim (configuration, latency value, and lowest cost) are explicitly stated in the abstract.",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "Y3",
+      "original": "Experiments show hybrid search methods and structured self‑evaluation prompting achieve up to 73.7% pass rate on the multi‑metric evaluation framework.",
+      "corrected": "Experiments show hybrid search methods and structured self‑evaluation prompting achieve up to 72.7% pass rate on the multi‑metric evaluation framework.",
+      "original_label": "non_etayee",
+      "new_label": "etayee",
+      "new_reason": "All elements of the claim (subjects, numbers, modality, and scope) are explicitly stated in the abstract.",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "Y4",
+      "original": "Experimental results show RAGEval underperforms zero‑shot and one‑shot methods in clarity, safety, conformity, and richness of generated samples.",
+      "corrected": "Experimental results show RAGEval outperforms zero-shot and one-shot methods in clarity, safety, conformity, and richness of generated samples.",
+      "original_label": "non_etayee",
+      "new_label": "etayee",
+      "new_reason": "All elements of the claim (subject, outperforming zero-shot/one-shot, and the four qualities) are explicitly stated in the abstract.",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "Y5",
+      "original": "Hybrid BM25 consistently achieves the worst results across all four datasets, while reranking yields only marginal improvements with higher latency.",
+      "corrected": "Hybrid BM25 consistently achieves the best results across all four datasets, while reranking yields only marginal improvements with higher response latency.",
+      "original_label": "non_etayee",
+      "new_label": "etayee",
+      "new_reason": "All elements of the claim are explicitly stated in the abstract",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "Y6",
+      "original": "Custom‑prompted agents consistently degrade retrieval accuracy and response quality.",
+      "corrected": "Custom‑prompted agents consistently improve retrieval accuracy and response quality.",
+      "original_label": "non_etayee",
+      "new_label": "etayee",
+      "new_reason": "The abstract explicitly states that custom‑prompted agents consistently improve retrieval accuracy and response quality, matching the claim.",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "Y7",
+      "original": "RAGEval generates scenario‑specific evaluation data by producing high‑quality documents, questions, answers, and references through a schema‑based pipeline, as confirmed by a user study with 200 participants.",
+      "corrected": "RAGEval generates scenario‑specific evaluation data by producing high‑quality documents, questions, answers, and references through a schema‑based pipeline.",
+      "original_label": "partielle",
+      "new_label": "etayee",
+      "new_reason": "All elements of the claim are directly stated in the abstract",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "Y8",
+      "original": "Semantic stratification grounds retrieval evaluation in corpus structure by organizing documents into entity‑based clusters and generating queries for missing strata, and these results were replicated on three additional datasets.",
+      "corrected": "Semantic stratification grounds retrieval evaluation in corpus structure by organizing documents into entity‑based clusters and systematically generating queries for missing strata.",
+      "original_label": "partielle",
+      "new_label": "etayee",
+      "new_reason": "The abstract explicitly states that semantic stratification grounds evaluation in corpus structure by organizing documents into entity‑based clusters and generating queries for missing strata, matching the claim.",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "Y9",
+      "original": "EvaRAG evaluates RAG configurations by systematically varying retrievers, indexing methods, similarity metrics, and rerankers across small, medium, and large datasets, outperforming the strongest baseline by 12%.",
+      "corrected": "EvaRAG evaluates RAG configurations by systematically varying retrievers, indexing methods, similarity metrics, and rerankers across small, medium, and large datasets.",
+      "original_label": "non_etayee",
+      "new_label": "etayee",
+      "new_reason": "All elements of the claim are explicitly stated in the abstract.",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "C32",
+      "original": "Custom‑prompted agents consistently improve retrieval accuracy and response quality compared to baseline prompts.",
+      "corrected": "Custom‑prompted agents show consistent improvements in retrieval accuracy and response quality.",
+      "original_label": "partielle",
+      "new_label": "etayee",
+      "new_reason": "The abstract explicitly states that custom‑prompted agents show consistent improvements in retrieval accuracy and response quality, matching the claim.",
+      "status": "fixed"
+    },
+    {
+      "claim_id": "C34",
+      "original": "THELMA enables developers to evaluate, monitor, and improve end‑to‑end RAG QA pipelines without requiring labeled sources or reference responses.",
+      "corrected": "THELMA helps developers evaluate, monitor, and improve end‑to‑end RAG QA pipelines without requiring labelled sources or reference responses.",
+      "original_label": "partielle",
+      "new_label": "etayee",
+      "new_reason": "All claim elements are directly stated in the abstract",
+      "status": "fixed"
+    }
+  ]
+}

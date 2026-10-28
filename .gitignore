@@ -1,0 +1,26 @@
+﻿# 1. Environnements virtuels (TRÈS LOURD, NE PAS COMMITTER)
+.venv/
+.venv_demo/
+.venv_old/
+.venv_test/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 2. Secrets (DANGER !)
+.env
+
+# 3. Données brutes et temporaires (régénérées par le pipeline)
+data/*.json
+eval/*.partial.json
+eval/results/*.partial.json
+eval/results/pipeline_demo.json
+eval/claims_demo.json
+
+# 4. Fichiers d'annotation en aveugle (à garder secret pour de futurs tests)
+eval/blind_*.json
+eval/results/final/blind_*.json
+
+# 5. Système
+.DS_Store
+Thumbs.db

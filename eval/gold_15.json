@@ -1,0 +1,109 @@
+{
+    "annotations":  [
+                        {
+                            "claim_id":  "F4",
+                            "claim":  "Deepchecks is a comprehensive framework for evaluating Retrieval‑Augmented Generation applications.",
+                            "human_label":  "etayee",
+                            "note":  "samefamily:C4"
+                        },
+                        {
+                            "claim_id":  "F5",
+                            "claim":  "Deepchecks addresses evaluation through a multi‑faceted approach, root cause analysis, and production monitoring.",
+                            "human_label":  "etayee",
+                            "note":  "samefamily:C5"
+                        },
+                        {
+                            "claim_id":  "F12",
+                            "claim":  "Using RAGChecker, 8 RAG systems were evaluated, revealing insightful patterns and trade‑offs in design choices.",
+                            "human_label":  "etayee",
+                            "note":  "samefamily:C12"
+                        },
+                        {
+                            "claim_id":  "F14",
+                            "claim":  "RAGe correlates retrieval and generation quality with underlying hardware constraints to guide domain‑specific RAG setups.",
+                            "human_label":  "etayee",
+                            "note":  "samefamily:C14"
+                        },
+                        {
+                            "claim_id":  "F15",
+                            "claim":  "RAGe supports rapid prototyping even on consumer‑grade hardware.",
+                            "human_label":  "etayee",
+                            "note":  "samefamily:C15"
+                        },
+                        {
+                            "claim_id":  "F18",
+                            "claim":  "Hybrid BM25 consistently achieves the best results across all four datasets, while reranking yields only marginal improvements with higher latency.",
+                            "human_label":  "etayee",
+                            "note":  "samefamily:C18"
+                        },
+                        {
+                            "claim_id":  "F28",
+                            "claim":  "Semantic stratification grounds retrieval evaluation in corpus structure by organizing documents into entity‑based clusters and generating queries for missing strata.",
+                            "human_label":  "etayee",
+                            "note":  "samefamily:C28"
+                        },
+                        {
+                            "claim_id":  "F29",
+                            "claim":  "Semantic stratification provides formal semantic coverage guarantees across retrieval regimes.",
+                            "human_label":  "etayee",
+                            "note":  "samefamily:C29"
+                        },
+                        {
+                            "claim_id":  "X2",
+                            "claim":  "The IVF–L2–Hierarchical configuration demonstrates the lowest latency of 2.736 ns and cost, making it suitable for real-time deployments.",
+                            "human_label":  "non_etayee",
+                            "note":  "synthetic:S2"
+                        },
+                        {
+                            "claim_id":  "X6",
+                            "claim":  "The CRAG benchmark addresses the limitations of existing QA benchmarks by providing a less comprehensive assessment of RAG performance.",
+                            "human_label":  "non_etayee",
+                            "note":  "synthetic:S6"
+                        },
+                        {
+                            "claim_id":  "C7",
+                            "paper_id":  "P2",
+                            "claim":  "Deepchecks ensures alignment with application-specific requirements when assessing RAG systems.",
+                            "paper_title":  "Deepchecks: Evaluating Retrieval-Augmented Generation (RAG)",
+                            "abstract":  "Large Language Models (LLMs) augmented with Retrieval-Augmented Generation (RAG) techniques are revolutionizing applications across multiple domains, such as healthcare, finance, and customer service. Despite their potential, evaluating RAG systems remains a complex challenge due to the stochastic nature of generated outputs and the intricate interplay between retrieval and generation components. This paper introduces Deepchecks, a comprehensive framework tailored for evaluating RAG applications. Deepchecks\u0027 evaluation framework addresses RAG applications evaluation through a multi-faceted approach, root cause analysis and production monitoring. By ensuring alignment with application-specific requirements, Deepchecks framework provides a robust foundation for assessing reliability, relevance, and user satisfaction in RAG systems.",
+                            "human_label":  "etayee",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C22",
+                            "paper_id":  "P6",
+                            "claim":  "Evaluation on benchmark datasets comprising 25 k QA pairs and over 51 k documents shows that RAG underperforms compared to the Oracle Context.",
+                            "paper_title":  "EncouRAGe: Evaluating RAG Local, Fast, and Reliable",
+                            "abstract":  "We introduce EncouRAGe, a comprehensive Python framework designed to streamline the development and evaluation of Retrieval-Augmented Generation (RAG) systems using Large Language Models (LLMs) and Embedding Models. EncouRAGe comprises five modular and extensible components: Type Manifest, RAG Factory, Inference, Vector Store, and Metrics, facilitating flexible experimentation and extensible development. The framework emphasizes scientific reproducibility, diverse evaluation metrics, and local deployment, enabling researchers to efficiently assess datasets within RAG workflows. This paper presents implementation details and an extensive evaluation across multiple benchmark datasets, including 25k QA pairs and over 51k documents. Our results show that RAG still underperforms compared to the Oracle Context, while Hybrid BM25 consistently achieves the best results across all four datasets. We further examine the effects of reranking, observing only marginal performance improvements accompanied by higher response latency.",
+                            "human_label":  "etayee",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C27",
+                            "paper_id":  "P7",
+                            "claim":  "The method achieved superior performance on the CRAG benchmark and ranked second for Task 2 and Task 3 in the competition.",
+                            "paper_title":  "Revisiting the Solution of Meta KDD Cup 2024: CRAG",
+                            "abstract":  "This paper presents the solution of our team APEX in the Meta KDD CUP 2024: CRAG Comprehensive RAG Benchmark Challenge. The CRAG benchmark addresses the limitations of existing QA benchmarks in evaluating the diverse and dynamic challenges faced by Retrieval-Augmented Generation (RAG) systems. It provides a more comprehensive assessment of RAG performance and contributes to advancing research in this field. We propose a routing-based domain and dynamic adaptive RAG pipeline, which performs specific processing for the diverse and dynamic nature of the question in all three stages: retrieval, augmentation, and generation. Our method achieved superior performance on CRAG and ranked 2nd for Task 2\u00263 on the final competition leaderboard. Our implementation is available at this link: https://github.com/USTCAGI/CRAG-in-KDD-Cup2024.",
+                            "human_label":  "partielle",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C34",
+                            "paper_id":  "P9",
+                            "claim":  "THELMA enables developers to evaluate, monitor, and improve end‑to‑end RAG QA pipelines without requiring labeled sources or reference responses.",
+                            "paper_title":  "THELMA: Task Based Holistic Evaluation of Large Language Model Applications-RAG Question Answering",
+                            "abstract":  "We propose THELMA (Task Based Holistic Evaluation of Large Language Model Applications), a reference free framework for RAG (Retrieval Augmented generation) based question answering (QA) applications. THELMA consist of six interdependent metrics specifically designed for holistic, fine grained evaluation of RAG QA applications. THELMA framework helps developers and application owners evaluate, monitor and improve end to end RAG QA pipelines without requiring labelled sources or reference responses.We also present our findings on the interplay of the proposed THELMA metrics, which can be interpreted to identify the specific RAG component needing improvement in QA applications.",
+                            "human_label":  "etayee",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C36",
+                            "paper_id":  "P9",
+                            "claim":  "THELMA provides a holistic, fine‑grained evaluation of RAG QA applications.",
+                            "paper_title":  "THELMA: Task Based Holistic Evaluation of Large Language Model Applications-RAG Question Answering",
+                            "abstract":  "We propose THELMA (Task Based Holistic Evaluation of Large Language Model Applications), a reference free framework for RAG (Retrieval Augmented generation) based question answering (QA) applications. THELMA consist of six interdependent metrics specifically designed for holistic, fine grained evaluation of RAG QA applications. THELMA framework helps developers and application owners evaluate, monitor and improve end to end RAG QA pipelines without requiring labelled sources or reference responses.We also present our findings on the interplay of the proposed THELMA metrics, which can be interpreted to identify the specific RAG component needing improvement in QA applications.",
+                            "human_label":  "etayee",
+                            "note":  ""
+                        }
+                    ]
+}

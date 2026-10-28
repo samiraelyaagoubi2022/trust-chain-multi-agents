@@ -1,0 +1,25 @@
+{
+  "description": "Gold set de 20 articles canoniques sur l'évaluation de RAG (relative recall)",
+  "papers": [
+    {"title": "RAGAS: Automated Evaluation of Retrieval Augmented Generation", "year": 2023},
+    {"title": "ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems", "year": 2024},
+    {"title": "RAGChecker: A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation", "year": 2024},
+    {"title": "RAGBench: Explainable Benchmark for Retrieval-Augmented Generation Systems", "year": 2024},
+    {"title": "Benchmarking Large Language Models in Retrieval-Augmented Generation", "year": 2024},
+    {"title": "CRAG - Comprehensive RAG Benchmark", "year": 2024},
+    {"title": "MIRAGE: A Metric-Intensive Benchmark for Retrieval-Augmented Generation Evaluation", "year": 2025},
+    {"title": "RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework", "year": 2024},
+    {"title": "RAGe: A Retrieval-Augmented Generation Evaluation Framework", "year": 2026},
+    {"title": "LRAGE: Legal Retrieval Augmented Generation Evaluation Tool", "year": 2025},
+    {"title": "THELMA: Task Based Holistic Evaluation of Large Language Model Applications-RAG Question Answering", "year": 2025},
+    {"title": "EncouRAGe: Evaluating RAG Local, Fast, and Reliable", "year": 2025},
+    {"title": "Multimodal Retrieval Augmented Generation Evaluation Benchmark", "year": 2024},
+    {"title": "IndicRAGSuite: Large-Scale Datasets and a Benchmark for Indian Language RAG Systems", "year": 2025},
+    {"title": "Overview of the TREC 2025 Retrieval Augmented Generation (RAG) Track", "year": 2026},
+    {"title": "RAG Playground: A Framework for Systematic Evaluation of Retrieval Strategies and Prompt Engineering in RAG Systems", "year": 2024},
+    {"title": "Coverage, Not Averages: Semantic Stratification for Trustworthy Retrieval Evaluation", "year": 2026},
+    {"title": "Evaluating Precision and Recall at Retrieval Time in Retrieval-Augmented Generation (RAG) Systems", "year": 2025},
+    {"title": "Retrieval Augmented Generation Evaluation for Health Documents", "year": 2025},
+    {"title": "Deepchecks: Evaluating Retrieval-Augmented Generation (RAG)", "year": 2026}
+  ]
+}

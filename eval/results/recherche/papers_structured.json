@@ -1,0 +1,74 @@
+[
+  {
+    "source": "arxiv",
+    "title": "RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework",
+    "abstract": "Retrieval-Augmented Generation (RAG) is a powerful approach that enables large language models (LLMs) to incorporate external knowledge. However, evaluating the effectiveness of RAG systems in specialized scenarios remains challenging due to the high costs of data construction and the lack of suitable evaluation metrics. This paper introduces RAGEval, a framework designed to assess RAG systems across diverse scenarios by generating high-quality documents, questions, answers, and references through a schema-based pipeline. With a focus on factual accuracy, we propose three novel metrics: Completeness, Hallucination, and Irrelevance to evaluate LLM generated responses rigorously. Experimental results show that RAGEval outperforms zero-shot and one-shot methods in terms of clarity, safety, conformity, and richness of generated samples. Furthermore, the use of LLMs for scoring the proposed metrics demonstrates a high level of consistency with human evaluations. RAGEval establishes a new paradigm for evaluating RAG systems in real-world applications. The code and dataset are released at https://github.com/OpenBMB/RAGEval.",
+    "url": "http://arxiv.org/abs/2408.01262v5",
+    "year": 2024,
+    "query": "RAG evaluation metrics",
+    "oa_id": "https://openalex.org/W4412945639",
+    "score": 0.02908,
+    "relevance": 3,
+    "judge_why": "Introduces RAGEval, a general framework for generating RAG evaluation datasets across scenarios."
+  },
+  {
+    "source": "openalex",
+    "title": "Know Your RAG: Dataset Taxonomy and Generation Strategies for Evaluating RAG Systems",
+    "abstract": "Retrieval Augmented Generation (RAG) systems are a widespread application of Large Language Models (LLMs) in the industry. While many tools exist empowering developers to build their own systems, measuring their performance locally, with datasets reflective of the system's use cases, is a technological challenge. Solutions to this problem range from non-specific and cheap (most public datasets) to specific and costly (generating data from local documents). In this paper, we show that using public question and answer (Q&A) datasets to assess retrieval performance can lead to non-optimal systems design, and that common tools for RAG dataset generation can lead to unbalanced data. We propose solutions to these issues based on the characterization of RAG datasets through labels and through label-targeted data generation. Finally, we show that fine-tuned small LLMs can efficiently generate Q&A datasets. We believe that these observations are invaluable to the know-your-data step of RAG systems development.",
+    "url": "https://doi.org/10.48550/arxiv.2411.19710",
+    "year": 2024,
+    "query": "MS MARCO RAG",
+    "oa_id": "https://openalex.org/W4405031432",
+    "score": 0.02886,
+    "relevance": 3,
+    "judge_why": "Provides a dataset taxonomy and generation strategies usable for evaluating RAG systems broadly."
+  },
+  {
+    "source": "openalex",
+    "title": "Deepchecks: Evaluating Retrieval-Augmented Generation (RAG)",
+    "abstract": "Large Language Models (LLMs) augmented with Retrieval-Augmented Generation (RAG) techniques are revolutionizing applications across multiple domains, such as healthcare, finance, and customer service. Despite their potential, evaluating RAG systems remains a complex challenge due to the stochastic nature of generated outputs and the intricate interplay between retrieval and generation components. This paper introduces Deepchecks, a comprehensive framework tailored for evaluating RAG applications. Deepchecks' evaluation framework addresses RAG applications evaluation through a multi-faceted approach, root cause analysis and production monitoring. By ensuring alignment with application-specific requirements, Deepchecks framework provides a robust foundation for assessing reliability, relevance, and user satisfaction in RAG systems.",
+    "url": "https://doi.org/10.48550/arxiv.2605.14488",
+    "year": 2026,
+    "query": "Retrieval-augmented generation evaluation",
+    "oa_id": "https://openalex.org/W7161237794",
+    "score": 0.02881,
+    "relevance": 3,
+    "judge_why": "Presents Deepchecks, a comprehensive, domain‑agnostic framework for RAG evaluation."
+  },
+  {
+    "source": "openalex",
+    "title": "EvaRAG: Evaluating Advanced RAG Techniques With Indexing and Distance Metrics",
+    "abstract": "Retrieval Augmented Generation (RAG) has emerged as a powerful paradigm for enhancing large language models (LLMs) with external knowledge. Yet, the performance of RAG pipelines is susceptible to design choices across retrieval, similarity metrics, indexing, and reranking. Despite growing adoption, little systematic work has explored the trade-offs between retrieval quality, semantic accuracy, computational efficiency, and cost in RAG systems. This study addresses this gap by conducting a comprehensive evaluation of RAG configurations across multiple dimensions. We propose a benchmarking framework that systematically varies retrievers (Fusion, HyDe, Hierarchical, SCaNN), indexing methods (HNSW, IVF, Flat), similarity metrics (Cosine, Inner Product, L2), and rerankers (BGE, minilm) over datasets of three scales (small, medium, and large). Performance is assessed through coverage, recall, MRR, and nDCG, while semantic quality is measured using correctness, faithfulness, and relevance. Efficiency is quantified via latency, throughput, and computational cost. Our experiments reveal that HNSW–IP–Fusion–minilm achieves the strongest semantic performance, with Coverage Retrieval of 0.942, Correctness of 0.909, and Faithfulness of 0.970, making it ideal for accuracy-critical tasks. Conversely, IVF–L2–Hierarchical demonstrates the lowest latency (1.736 ns) and cost, making it suitable for real-time deployments. Reranker analysis shows modest but consistent gains for minilm over BGE, while HyDe excels in precision at the expense of efficiency. Notably, no single configuration dominates; optimal designs depend on the application’s needs, whether it is maximizing semantic accuracy, minimizing latency, or striking a balance between the two. By demonstrating concrete trade-offs, this work provides a practical foundation for scaling RAG pipelines across diverse domains, including information retrieval, enterprise search, and knowledge-intensive reasoning.",
+    "url": "https://doi.org/10.1109/access.2025.3646665",
+    "year": 2025,
+    "query": "RAG evaluation metrics",
+    "oa_id": "https://openalex.org/W7116700546",
+    "score": 0.02701,
+    "relevance": 3,
+    "judge_why": "Proposes EvaRAG, a general benchmarking framework for advanced RAG techniques."
+  },
+  {
+    "source": "arxiv",
+    "title": "RAGChecker: A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation",
+    "abstract": "Despite Retrieval-Augmented Generation (RAG) showing promising capability in leveraging external knowledge, a comprehensive evaluation of RAG systems is still challenging due to the modular nature of RAG, evaluation of long-form responses and reliability of measurements. In this paper, we propose a fine-grained evaluation framework, RAGChecker, that incorporates a suite of diagnostic metrics for both the retrieval and generation modules. Meta evaluation verifies that RAGChecker has significantly better correlations with human judgments than other evaluation metrics. Using RAGChecker, we evaluate 8 RAG systems and conduct an in-depth analysis of their performance, revealing insightful patterns and trade-offs in the design choices of RAG architectures. The metrics of RAGChecker can guide researchers and practitioners in developing more effective RAG systems. This work has been open sourced at https://github.com/amazon-science/RAGChecker.",
+    "url": "http://arxiv.org/abs/2408.08067v2",
+    "year": 2024,
+    "query": "RAG evaluation metrics",
+    "oa_id": "",
+    "score": 0.02686,
+    "relevance": 3,
+    "judge_why": "Introduces RAGChecker, a fine‑grained, domain‑independent evaluation framework for RAG."
+  },
+  {
+    "source": "openalex",
+    "title": "RAGe: A Retrieval-Augmented Generation Evaluation Framework",
+    "abstract": "Deploying Large Language Model (LLM) applications, particularly those relying on Retrieval-Augmented Generation (RAG), remains challenging due to high computational demands, outdated knowledge bases, and the need to manually select optimal pipeline components. In this work, we propose a modular framework for benchmarking and guiding the efficient development of RAG applications by focusing on resource telemetry and component recommendation, suggesting the best components for a domain-specific dataset. Our approach leverages core techniques in LLM applications, including document chunking, vector databases, embedding models, and retrievers, to evaluate trade-offs among accuracy, efficiency, and scalability. By directly correlating retrieval and generation quality with underlying hardware constraints, RAGe supports researchers to identify the most effective, domain-specific RAG setups for their specific operational needs, facilitating rapid prototyping even on consumer-grade hardware.",
+    "url": "https://doi.org/10.48550/arxiv.2605.27445",
+    "year": 2026,
+    "query": "Retrieval-augmented generation evaluation",
+    "oa_id": "https://openalex.org/W7162642619",
+    "score": 0.02582,
+    "relevance": 3,
+    "judge_why": "Offers RAGe, a modular, general‑purpose evaluation framework for RAG pipelines."
+  }
+]

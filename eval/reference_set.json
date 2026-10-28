@@ -1,0 +1,9 @@
+﻿[
+  {"title": "RAGChecker: A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation", "year": 2024},
+  {"title": "RAGBench: Explainable Benchmark for Retrieval-Augmented Generation Systems", "year": 2024},
+  {"title": "Benchmarking Large Language Models in Retrieval-Augmented Generation", "year": 2024},
+  {"title": "CRAG: Comprehensive RAG Benchmark", "year": 2024},
+  {"title": "MIRAGE: A Metric-Intensive Benchmark for Retrieval-Augmented Generation Evaluation", "year": 2025},
+  {"title": "ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems", "year": 2023},
+  {"title": "Evaluating Retrieval Quality in Retrieval-Augmented Generation", "year": 2024}
+]

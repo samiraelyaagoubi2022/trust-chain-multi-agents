@@ -1,0 +1,95 @@
+{
+  "claims_file": "eval/claims_evalset.json",
+  "annotations": [
+    {
+      "claim_id": "F2",
+      "claim": "RAGEval introduces three novel metrics: Completeness, Hallucination, and Irrelevance.",
+      "human_label": "etayee",
+      "note": "samefamily:C2"
+    },
+    {
+      "claim_id": "F3",
+      "claim": "Experimental results show RAGEval outperforms zero‑shot and one‑shot methods in clarity, safety, conformity, and richness of generated samples.",
+      "human_label": "etayee",
+      "note": "samefamily:C3"
+    },
+    {
+      "claim_id": "F6",
+      "claim": "Deepchecks provides a robust foundation for assessing reliability, relevance, and user satisfaction in RAG systems.",
+      "human_label": "etayee",
+      "note": "samefamily:C6"
+    },
+    {
+      "claim_id": "F7",
+      "claim": "EvaRAG evaluates RAG configurations by systematically varying retrievers, indexing methods, similarity metrics, and rerankers across small, medium, and large datasets.",
+      "human_label": "etayee",
+      "note": "samefamily:C7"
+    },
+    {
+      "claim_id": "F8",
+      "claim": "The HNSW–IP–Fusion–minilm configuration achieves Coverage Retrieval 0.942, Correctness 0.909, and Faithfulness 0.970.",
+      "human_label": "etayee",
+      "note": "samefamily:C8"
+    },
+    {
+      "claim_id": "F9",
+      "claim": "The IVF–L2–Hierarchical configuration demonstrates the lowest latency of 1.736 ns and lowest cost.",
+      "human_label": "etayee",
+      "note": "samefamily:C9"
+    },
+    {
+      "claim_id": "F15",
+      "claim": "RAGe supports rapid prototyping even on consumer‑grade hardware.",
+      "human_label": "etayee",
+      "note": "samefamily:C15"
+    },
+    {
+      "claim_id": "F16",
+      "claim": "EncouRAGe comprises five modular components: Type Manifest, RAG Factory, Inference, Vector Store, and Metrics.",
+      "human_label": "etayee",
+      "note": "samefamily:C16"
+    },
+    {
+      "claim_id": "F18",
+      "claim": "Hybrid BM25 consistently achieves the best results across all four datasets, while reranking yields only marginal improvements with higher latency.",
+      "human_label": "etayee",
+      "note": "samefamily:C18"
+    },
+    {
+      "claim_id": "F28",
+      "claim": "Semantic stratification grounds retrieval evaluation in corpus structure by organizing documents into entity‑based clusters and generating queries for missing strata.",
+      "human_label": "etayee",
+      "note": "samefamily:C28"
+    },
+    {
+      "claim_id": "X5",
+      "claim": "Meta evaluation verifies that RAGChecker has significantly worse correlations with human judgments than other evaluation metrics.",
+      "human_label": "non_etayee",
+      "note": "synthetic:S5"
+    },
+    {
+      "claim_id": "X8",
+      "claim": "Findings on the interplay of THELMA metrics can be interpreted to identify the specific RAG component needing improvement in QA applications, and these results were replicated on three additional datasets.",
+      "human_label": "partielle",
+      "note": "synthetic:S8"
+    },
+    {
+      "claim_id": "X9",
+      "claim": "EvaRAG proposes a benchmarking framework that systematically varies retrievers, indexing methods, similarity metrics, and rerankers over datasets of three scales, outperforming the strongest baseline by 12%.",
+      "human_label": "partielle",
+      "note": "synthetic:S9"
+    },
+    {
+      "claim_id": "Y2",
+      "claim": "The IVF–L2–Hierarchical configuration demonstrates the lowest latency of 2.736 ns and lowest cost.",
+      "human_label": "non_etayee",
+      "note": "synthetic2:S2"
+    },
+    {
+      "claim_id": "Y7",
+      "claim": "RAGEval generates scenario‑specific evaluation data by producing high‑quality documents, questions, answers, and references through a schema‑based pipeline, as confirmed by a user study with 200 participants.",
+      "human_label": "partielle",
+      "note": "synthetic2:S7"
+    }
+  ]
+}

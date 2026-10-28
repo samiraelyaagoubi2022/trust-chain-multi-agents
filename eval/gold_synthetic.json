@@ -1,0 +1,95 @@
+{
+  "claims_file": "eval/claims_synthetic.json",
+  "annotations": [
+    {
+      "claim_id": "S1",
+      "paper_id": "P3",
+      "claim": "Experiments in EvaRAG reveal that the HNSW–IP–Fusion–minilm configuration achieves the strongest semantic performance with a Coverage Retrieval of 0.942, Correctness of 0.909, and Faithfulness of 0.870.",
+      "paper_title": "EvaRAG: Evaluating Advanced RAG Techniques With Indexing and Distance Metrics",
+      "abstract": "Retrieval Augmented Generation (RAG) has emerged as a powerful paradigm for enhancing large language models (LLMs) with external knowledge. Yet, the performance of RAG pipelines is susceptible to design choices across retrieval, similarity metrics, indexing, and reranking. Despite growing adoption, little systematic work has explored the trade-offs between retrieval quality, semantic accuracy, computational efficiency, and cost in RAG systems. This study addresses this gap by conducting a comprehensive evaluation of RAG configurations across multiple dimensions. We propose a benchmarking framework that systematically varies retrievers (Fusion, HyDe, Hierarchical, SCaNN), indexing methods (HNSW, IVF, Flat), similarity metrics (Cosine, Inner Product, L2), and rerankers (BGE, minilm) over datasets of three scales (small, medium, and large). Performance is assessed through coverage, recall, MRR, and nDCG, while semantic quality is measured using correctness, faithfulness, and relevance. Efficiency is quantified via latency, throughput, and computational cost. Our experiments reveal that HNSW–IP–Fusion–minilm achieves the strongest semantic performance, with Coverage Retrieval of 0.942, Correctness of 0.909, and Faithfulness of 0.970, making it ideal for accuracy-critical tasks. Conversely, IVF–L2–Hierarchical demonstrates the lowest latency (1.736 ns) and cost, making it suitable for real-time deployments. Reranker analysis shows modest but consistent gains for minilm over BGE, while HyDe excels in precision at the expense of efficiency. Notably, no single configuration dominates; optimal designs depend on the application’s needs, whether it is maximizing semantic accuracy, minimizing latency, or striking a balance between the two. By demonstrating concrete trade-offs, this work provides a practical foundation for scaling RAG pipelines across diverse domains, including information retrieval, enterprise search, and knowledge-intensive reasoning.",
+      "human_label": "non_etayee",
+      "note": "synthetic:number_changed",
+      "synthetic": true
+    },
+    {
+      "claim_id": "S2",
+      "paper_id": "P3",
+      "claim": "The IVF–L2–Hierarchical configuration demonstrates the lowest latency of 2.736 ns and cost, making it suitable for real-time deployments.",
+      "paper_title": "EvaRAG: Evaluating Advanced RAG Techniques With Indexing and Distance Metrics",
+      "abstract": "Retrieval Augmented Generation (RAG) has emerged as a powerful paradigm for enhancing large language models (LLMs) with external knowledge. Yet, the performance of RAG pipelines is susceptible to design choices across retrieval, similarity metrics, indexing, and reranking. Despite growing adoption, little systematic work has explored the trade-offs between retrieval quality, semantic accuracy, computational efficiency, and cost in RAG systems. This study addresses this gap by conducting a comprehensive evaluation of RAG configurations across multiple dimensions. We propose a benchmarking framework that systematically varies retrievers (Fusion, HyDe, Hierarchical, SCaNN), indexing methods (HNSW, IVF, Flat), similarity metrics (Cosine, Inner Product, L2), and rerankers (BGE, minilm) over datasets of three scales (small, medium, and large). Performance is assessed through coverage, recall, MRR, and nDCG, while semantic quality is measured using correctness, faithfulness, and relevance. Efficiency is quantified via latency, throughput, and computational cost. Our experiments reveal that HNSW–IP–Fusion–minilm achieves the strongest semantic performance, with Coverage Retrieval of 0.942, Correctness of 0.909, and Faithfulness of 0.970, making it ideal for accuracy-critical tasks. Conversely, IVF–L2–Hierarchical demonstrates the lowest latency (1.736 ns) and cost, making it suitable for real-time deployments. Reranker analysis shows modest but consistent gains for minilm over BGE, while HyDe excels in precision at the expense of efficiency. Notably, no single configuration dominates; optimal designs depend on the application’s needs, whether it is maximizing semantic accuracy, minimizing latency, or striking a balance between the two. By demonstrating concrete trade-offs, this work provides a practical foundation for scaling RAG pipelines across diverse domains, including information retrieval, enterprise search, and knowledge-intensive reasoning.",
+      "human_label": "non_etayee",
+      "note": "synthetic:number_changed",
+      "synthetic": true
+    },
+    {
+      "claim_id": "S3",
+      "paper_id": "P8",
+      "claim": "Experiments in RAG Playground demonstrate significant performance improvements through hybrid search methods and structured self-evaluation prompting, achieving up to 73.7% pass rate.",
+      "paper_title": "RAG Playground: A Framework for Systematic Evaluation of Retrieval Strategies and Prompt Engineering in RAG Systems",
+      "abstract": "We present RAG Playground, an open-source framework for systematic evaluation of Retrieval-Augmented Generation (RAG) systems. The framework implements and compares three retrieval approaches: naive vector search, reranking, and hybrid vector-keyword search, combined with ReAct agents using different prompting strategies. We introduce a comprehensive evaluation framework with novel metrics and provide empirical results comparing different language models (Llama 3.1 and Qwen 2.5) across various retrieval configurations. Our experiments demonstrate significant performance improvements through hybrid search methods and structured self-evaluation prompting, achieving up to 72.7% pass rate on our multi-metric evaluation framework. The results also highlight the importance of prompt engineering in RAG systems, with our custom-prompted agents showing consistent improvements in retrieval accuracy and response quality.",
+      "human_label": "non_etayee",
+      "note": "synthetic:number_changed",
+      "synthetic": true
+    },
+    {
+      "claim_id": "S4",
+      "paper_id": "P6",
+      "claim": "Results from EncouRAGe show that RAG still underperforms compared to the Oracle Context, while Hybrid BM25 consistently achieves the worst results across all four datasets.",
+      "paper_title": "EncouRAGe: Evaluating RAG Local, Fast, and Reliable",
+      "abstract": "We introduce EncouRAGe, a comprehensive Python framework designed to streamline the development and evaluation of Retrieval-Augmented Generation (RAG) systems using Large Language Models (LLMs) and Embedding Models. EncouRAGe comprises five modular and extensible components: Type Manifest, RAG Factory, Inference, Vector Store, and Metrics, facilitating flexible experimentation and extensible development. The framework emphasizes scientific reproducibility, diverse evaluation metrics, and local deployment, enabling researchers to efficiently assess datasets within RAG workflows. This paper presents implementation details and an extensive evaluation across multiple benchmark datasets, including 25k QA pairs and over 51k documents. Our results show that RAG still underperforms compared to the Oracle Context, while Hybrid BM25 consistently achieves the best results across all four datasets. We further examine the effects of reranking, observing only marginal performance improvements accompanied by higher response latency.",
+      "human_label": "non_etayee",
+      "note": "synthetic:direction_reversed",
+      "synthetic": true
+    },
+    {
+      "claim_id": "S5",
+      "paper_id": "P4",
+      "claim": "Meta evaluation verifies that RAGChecker has significantly worse correlations with human judgments than other evaluation metrics.",
+      "paper_title": "RAGChecker: A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation",
+      "abstract": "Despite Retrieval-Augmented Generation (RAG) showing promising capability in leveraging external knowledge, a comprehensive evaluation of RAG systems is still challenging due to the modular nature of RAG, evaluation of long-form responses and reliability of measurements. In this paper, we propose a fine-grained evaluation framework, RAGChecker, that incorporates a suite of diagnostic metrics for both the retrieval and generation modules. Meta evaluation verifies that RAGChecker has significantly better correlations with human judgments than other evaluation metrics. Using RAGChecker, we evaluate 8 RAG systems and conduct an in-depth analysis of their performance, revealing insightful patterns and trade-offs in the design choices of RAG architectures. The metrics of RAGChecker can guide researchers and practitioners in developing more effective RAG systems. This work has been open sourced at https://github.com/amazon-science/RAGChecker.",
+      "human_label": "non_etayee",
+      "note": "synthetic:direction_reversed",
+      "synthetic": true
+    },
+    {
+      "claim_id": "S6",
+      "paper_id": "P7",
+      "claim": "The CRAG benchmark addresses the limitations of existing QA benchmarks by providing a less comprehensive assessment of RAG performance.",
+      "paper_title": "Revisiting the Solution of Meta KDD Cup 2024: CRAG",
+      "abstract": "This paper presents the solution of our team APEX in the Meta KDD CUP 2024: CRAG Comprehensive RAG Benchmark Challenge. The CRAG benchmark addresses the limitations of existing QA benchmarks in evaluating the diverse and dynamic challenges faced by Retrieval-Augmented Generation (RAG) systems. It provides a more comprehensive assessment of RAG performance and contributes to advancing research in this field. We propose a routing-based domain and dynamic adaptive RAG pipeline, which performs specific processing for the diverse and dynamic nature of the question in all three stages: retrieval, augmentation, and generation. Our method achieved superior performance on CRAG and ranked 2nd for Task 2&3 on the final competition leaderboard. Our implementation is available at this link: https://github.com/USTCAGI/CRAG-in-KDD-Cup2024.",
+      "human_label": "non_etayee",
+      "note": "synthetic:direction_reversed",
+      "synthetic": true
+    },
+    {
+      "claim_id": "S7",
+      "paper_id": "P1",
+      "claim": "RAGEval proposes three novel metrics named Completeness, Hallucination, and Irrelevance to evaluate LLM generated responses for factual accuracy, as confirmed by a user study with 200 participants.",
+      "paper_title": "RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework",
+      "abstract": "Retrieval-Augmented Generation (RAG) is a powerful approach that enables large language models (LLMs) to incorporate external knowledge. However, evaluating the effectiveness of RAG systems in specialized scenarios remains challenging due to the high costs of data construction and the lack of suitable evaluation metrics. This paper introduces RAGEval, a framework designed to assess RAG systems across diverse scenarios by generating high-quality documents, questions, answers, and references through a schema-based pipeline. With a focus on factual accuracy, we propose three novel metrics: Completeness, Hallucination, and Irrelevance to evaluate LLM generated responses rigorously. Experimental results show that RAGEval outperforms zero-shot and one-shot methods in terms of clarity, safety, conformity, and richness of generated samples. Furthermore, the use of LLMs for scoring the proposed metrics demonstrates a high level of consistency with human evaluations. RAGEval establishes a new paradigm for evaluating RAG systems in real-world applications. The code and dataset are released at https://github.com/OpenBMB/RAGEval.",
+      "human_label": "partielle",
+      "note": "synthetic:unsupported_cause",
+      "synthetic": true
+    },
+    {
+      "claim_id": "S8",
+      "paper_id": "P9",
+      "claim": "Findings on the interplay of THELMA metrics can be interpreted to identify the specific RAG component needing improvement in QA applications, and these results were replicated on three additional datasets.",
+      "paper_title": "THELMA: Task Based Holistic Evaluation of Large Language Model Applications-RAG Question Answering",
+      "abstract": "We propose THELMA (Task Based Holistic Evaluation of Large Language Model Applications), a reference free framework for RAG (Retrieval Augmented generation) based question answering (QA) applications. THELMA consist of six interdependent metrics specifically designed for holistic, fine grained evaluation of RAG QA applications. THELMA framework helps developers and application owners evaluate, monitor and improve end to end RAG QA pipelines without requiring labelled sources or reference responses.We also present our findings on the interplay of the proposed THELMA metrics, which can be interpreted to identify the specific RAG component needing improvement in QA applications.",
+      "human_label": "partielle",
+      "note": "synthetic:unsupported_cause",
+      "synthetic": true
+    },
+    {
+      "claim_id": "S9",
+      "paper_id": "P3",
+      "claim": "EvaRAG proposes a benchmarking framework that systematically varies retrievers, indexing methods, similarity metrics, and rerankers over datasets of three scales, outperforming the strongest baseline by 12%.",
+      "paper_title": "EvaRAG: Evaluating Advanced RAG Techniques With Indexing and Distance Metrics",
+      "abstract": "Retrieval Augmented Generation (RAG) has emerged as a powerful paradigm for enhancing large language models (LLMs) with external knowledge. Yet, the performance of RAG pipelines is susceptible to design choices across retrieval, similarity metrics, indexing, and reranking. Despite growing adoption, little systematic work has explored the trade-offs between retrieval quality, semantic accuracy, computational efficiency, and cost in RAG systems. This study addresses this gap by conducting a comprehensive evaluation of RAG configurations across multiple dimensions. We propose a benchmarking framework that systematically varies retrievers (Fusion, HyDe, Hierarchical, SCaNN), indexing methods (HNSW, IVF, Flat), similarity metrics (Cosine, Inner Product, L2), and rerankers (BGE, minilm) over datasets of three scales (small, medium, and large). Performance is assessed through coverage, recall, MRR, and nDCG, while semantic quality is measured using correctness, faithfulness, and relevance. Efficiency is quantified via latency, throughput, and computational cost. Our experiments reveal that HNSW–IP–Fusion–minilm achieves the strongest semantic performance, with Coverage Retrieval of 0.942, Correctness of 0.909, and Faithfulness of 0.970, making it ideal for accuracy-critical tasks. Conversely, IVF–L2–Hierarchical demonstrates the lowest latency (1.736 ns) and cost, making it suitable for real-time deployments. Reranker analysis shows modest but consistent gains for minilm over BGE, while HyDe excels in precision at the expense of efficiency. Notably, no single configuration dominates; optimal designs depend on the application’s needs, whether it is maximizing semantic accuracy, minimizing latency, or striking a balance between the two. By demonstrating concrete trade-offs, this work provides a practical foundation for scaling RAG pipelines across diverse domains, including information retrieval, enterprise search, and knowledge-intensive reasoning.",
+      "human_label": "partielle",
+      "note": "synthetic:unsupported_cause",
+      "synthetic": true
+    }
+  ]
+}

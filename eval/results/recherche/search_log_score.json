@@ -1,0 +1,53 @@
+{
+  "sujet": "retrieval augmented generation evaluation",
+  "sujet_en": "Retrieval-augmented generation evaluation",
+  "requetes": {
+    "arxiv": [
+      "Retrieval-augmented generation evaluation",
+      "retrieval augmented generation benchmark",
+      "RAG evaluation metrics",
+      "FAISS retrieval evaluation",
+      "RAG benchmark dataset",
+      "BEIR retrieval evaluation",
+      "KILT RAG metrics"
+    ],
+    "openalex": [
+      "Retrieval-augmented generation evaluation",
+      "RAG evaluation metrics",
+      "KILT benchmark",
+      "MS MARCO retrieval-augmented generation",
+      "RAG evaluation metrics",
+      "KILT benchmark",
+      "MS MARCO RAG"
+    ]
+  },
+  "etapes": [
+    {
+      "tour": 1,
+      "nouveaux_candidats": 73,
+      "pool": 83,
+      "retenus": 7,
+      "par_citations": 10
+    },
+    {
+      "tour": 2,
+      "nouveaux_candidats": 26,
+      "pool": 109,
+      "retenus": 10
+    }
+  ],
+  "config": {
+    "embed": true,
+    "judge": true,
+    "snowball": true,
+    "criteria": "Keep only papers whose main contribution is a general framework, benchmark, dataset or metric for EVALUATING RAG systems, usable across domains. Score 0 for any paper tied to one application domain or one language group (for example medicine, law, telecom, security, agriculture, soil science, a specific language), even if the title contains the word evaluation. Score 0 for papers that mainly propose a new RAG method, surveys, tutorials, and product documentation.",
+    "judge_mode": "score",
+    "llm_model": "openai/gpt-oss-120b",
+    "oa_types": [
+      "article",
+      "preprint",
+      "review"
+    ]
+  },
+  "duree_s": 117.1
+}

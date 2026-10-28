@@ -1,0 +1,214 @@
+{
+    "annotations":  [
+                        {
+                            "claim_id":  "C1",
+                            "claim":  "Quantum machine learning models remain vulnerable to adversarial attacks.",
+                            "paper_id":  "P1",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C2",
+                            "claim":  "The field of quantum adversarial machine learning studies attacks, defenses, and theoretical foundations.",
+                            "paper_id":  "P1",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C3",
+                            "claim":  "The survey identifies critical challenges and emerging trends in quantum adversarial machine learning.",
+                            "paper_id":  "P1",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C4",
+                            "claim":  "A training method for parametrized quantum circuits enables solving reinforcement learning tasks via deep Q‑learning.",
+                            "paper_id":  "P2",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C5",
+                            "claim":  "The performance of a VQA‑based Q‑learning algorithm crucially depends on the choice of observables of the quantum model.",
+                            "paper_id":  "P2",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C6",
+                            "claim":  "Architectural choices and hyperparameters contribute more to reinforcement‑learning success than the number of parameters in the model.",
+                            "paper_id":  "P2",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C7",
+                            "claim":  "Estimating entries of the quantum kernel matrix can be performed using the SWAP‑test.",
+                            "paper_id":  "P3",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C8",
+                            "claim":  "Noise in quantum state preparation introduces error in the quantum kernel matrix computation.",
+                            "paper_id":  "P3",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C9",
+                            "claim":  "A bound on the generalization error of the quantum kernel method is proven accounting for SWAP‑test repetitions and noise.",
+                            "paper_id":  "P3",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C10",
+                            "claim":  "All standard parametrized quantum‑circuit models can be captured within a linear quantum model framework.",
+                            "paper_id":  "P4",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C11",
+                            "claim":  "Data re‑uploading circuits can be efficiently mapped to linear quantum models in Hilbert space.",
+                            "paper_id":  "P4",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C12",
+                            "claim":  "Linear quantum models require exponentially more qubits than data re‑uploading models to solve certain learning tasks, while kernel methods additionally require exponentially more data points.",
+                            "paper_id":  "P4",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C13",
+                            "claim":  "Quanvolutional Neural Networks implemented on a quantum computer are compared to classical Convolutional Neural Networks for handwritten digit recognition.",
+                            "paper_id":  "P5",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C14",
+                            "claim":  "A Quantum Support Vector Machine is applied to the breast cancer dataset and compared with a classical SVM.",
+                            "paper_id":  "P5",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C15",
+                            "claim":  "A Variational Quantum Classifier is evaluated on the Iris dataset alongside multiple classical classifiers to compare accuracies.",
+                            "paper_id":  "P5",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C16",
+                            "claim":  "A quantum algorithm is presented that can approximate any analytic activation function to arbitrary order using its power series.",
+                            "paper_id":  "P6",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C17",
+                            "claim":  "The proposed method does not require measuring the states encoding information.",
+                            "paper_id":  "P6",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C18",
+                            "claim":  "The construction enables any feed‑forward quantum neural network to possess universal approximation properties as per Hornik’s theorem.",
+                            "paper_id":  "P6",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C19",
+                            "claim":  "Variational quantum circuits are used to develop quantum machine learning architectures on noisy intermediate‑scale quantum devices.",
+                            "paper_id":  "P7",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C20",
+                            "claim":  "The paper discusses recent theoretical and empirical findings in quantum machine learning.",
+                            "paper_id":  "P7",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C21",
+                            "claim":  "Future directions and potential industrial impacts of quantum machine learning research are explored.",
+                            "paper_id":  "P7",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C22",
+                            "claim":  "Experiments on three binary‑classification datasets compare classical SVM and Quantum SVM implementations.",
+                            "paper_id":  "P8",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C23",
+                            "claim":  "The Quantum SVM algorithm outperforms the classical SVM on complex datasets.",
+                            "paper_id":  "P8",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C24",
+                            "claim":  "The performance gap between quantum and classical models widens as dataset complexity increases, while simple models tend to overfit complex datasets.",
+                            "paper_id":  "P8",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C25",
+                            "claim":  "Parameterized quantum circuits combined with quantum kernels constitute a hybrid quantum‑classical approach to machine learning.",
+                            "paper_id":  "P9",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C26",
+                            "claim":  "Quantum kernel methods can be applied to regression, classification, clustering, and dimensionality reduction on NISQ devices.",
+                            "paper_id":  "P9",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C27",
+                            "claim":  "Quantum advantage can be achieved when quantum feature encodings are classically intractable.",
+                            "paper_id":  "P9",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C28",
+                            "claim":  "The distribution of quantum datasets shares more similarities with classical dataset distribution than the distribution of quantum models.",
+                            "paper_id":  "P10",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C29",
+                            "claim":  "Unique aspects of quantum data introduce new vulnerabilities to distributed quantum neural network approaches.",
+                            "paper_id":  "P10",
+                            "human_label":  "",
+                            "note":  ""
+                        },
+                        {
+                            "claim_id":  "C30",
+                            "claim":  "Recent work includes numerical experiments and the concept of circuit‑cutting for distributed quantum neural networks.",
+                            "paper_id":  "P10",
+                            "human_label":  "",
+                            "note":  ""
+                        }
+                    ]
+}

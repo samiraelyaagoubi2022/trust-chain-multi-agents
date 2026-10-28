@@ -1,0 +1,41 @@
+{
+  "result": "eval/results/pipe_verified_final.json",
+  "reviews": {
+    "F20": {
+      "label": "etayee",
+      "note": "",
+      "before": "CRAG proposes a routing‑based domain and dynamic adaptive RAG pipeline.",
+      "after": "We propose a routing-based domain and dynamic adaptive RAG pipeline."
+    },
+    "F21": {
+      "label": "etayee",
+      "note": "",
+      "before": "CRAG achieved superior performance on the benchmark and ranked 2nd for Task 2 and 3.",
+      "after": "Our method achieved superior performance on CRAG and ranked 2nd for Task 2&3 on the final competition leaderboard."
+    },
+    "X1": {
+      "label": "etayee",
+      "note": "",
+      "before": "Experiments in EvaRAG reveal that the HNSW–IP–Fusion–minilm configuration achieves the strongest semantic performance with a Coverage Retrieval of 0.942, Correctness of 0.909, and Faithfulness of 0.870.",
+      "after": "HNSW–IP–Fusion–minilm achieves Coverage Retrieval of 0.942, Correctness of 0.909, and Faithfulness of 0.970."
+    },
+    "X3": {
+      "label": "etayee",
+      "note": "",
+      "before": "Experiments in RAG Playground demonstrate significant performance improvements through hybrid search methods and structured self-evaluation prompting, achieving up to 73.7% pass rate.",
+      "after": "Our experiments demonstrate that hybrid search methods and structured self-evaluation prompting achieve up to 72.7% pass rate on the multi-metric evaluation framework."
+    },
+    "Y5": {
+      "label": "etayee",
+      "note": "",
+      "before": "Hybrid BM25 consistently achieves the worst results across all four datasets, while reranking yields only marginal improvements with higher latency.",
+      "after": "Hybrid BM25 consistently achieves the best results across all four datasets, while reranking yields only marginal performance improvements accompanied by higher response latency."
+    },
+    "Y6": {
+      "label": "etayee",
+      "note": "",
+      "before": "Custom‑prompted agents consistently degrade retrieval accuracy and response quality.",
+      "after": "Custom‑prompted agents show consistent improvements in retrieval accuracy and response quality."
+    }
+  }
+}

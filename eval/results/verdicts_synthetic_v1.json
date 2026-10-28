@@ -1,0 +1,77 @@
+{
+  "verifier_model": "openai/gpt-oss-120b",
+  "claims_file": "eval\\claims_synthetic.json",
+  "evidence_check": true,
+  "prompt_version": "v1",
+  "verdicts": [
+    {
+      "claim_id": "S1",
+      "label": "partielle",
+      "evidence": "Our experiments reveal that HNSW–IP–Fusion–minilm achieves the strongest semantic performance, with Coverage Retrieval of 0.942, Correctness of 0.909, and Faithfulness of 0.970",
+      "reason": "The abstract reports Faithfulness 0.970, not the claimed 0.870",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "S2",
+      "label": "non_etayee",
+      "evidence": "IVF–L2–Hierarchical demonstrates the lowest latency (1.736 ns) and cost, making it suitable for real-time deployments",
+      "reason": "The abstract reports latency of 1.736 ns, not the claimed 2.736 ns",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "S3",
+      "label": "partielle",
+      "evidence": "significant performance improvements through hybrid search methods and structured self-evaluation prompting ... achieving up to 72.7% pass rate",
+      "reason": "The abstract reports 72.7% pass rate, not the claimed 73.7%",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "S4",
+      "label": "non_etayee",
+      "evidence": "RAG still underperforms compared to the Oracle Context ... Hybrid BM25 consistently achieves the best results across all four datasets",
+      "reason": "The abstract states Hybrid BM25 achieves the best, not the worst, results, contradicting the claim.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "S5",
+      "label": "non_etayee",
+      "evidence": "Meta evaluation verifies that RAGChecker has significantly better correlations with human judgments than other evaluation metrics",
+      "reason": "The abstract says RAGChecker has significantly better, not worse, correlations with human judgments.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "S6",
+      "label": "non_etayee",
+      "evidence": "The CRAG benchmark addresses the limitations of existing QA benchmarks ... It provides a more comprehensive assessment of RAG performance",
+      "reason": "The abstract states the benchmark provides a more comprehensive, not less comprehensive, assessment",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "S7",
+      "label": "partielle",
+      "evidence": "we propose three novel metrics: Completeness, Hallucination, and Irrelevance to evaluate LLM generated responses rigorously",
+      "reason": "abstract confirms the three metrics but provides no evidence of a user study with 200 participants",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "S8",
+      "label": "partielle",
+      "evidence": "We also present our findings on the interplay of the proposed THELMA metrics, which can be interpreted to identify the specific RAG component needing improvement in QA applications",
+      "reason": "The abstract confirms the metric interplay can identify components, but does not mention replication on three additional datasets.",
+      "evidence_in_source": true
+    },
+    {
+      "claim_id": "S9",
+      "label": "partielle",
+      "evidence": "We propose a benchmarking framework that systematically varies retrievers (Fusion, HyDe, Hierarchical, SCaNN), indexing methods (HNSW, IVF, Flat), similarity metrics (Cosine, Inner Product, L2), and rerankers (BGE, minilm) over datasets of three scales (small, medium, and large) ...",
+      "reason": "The abstract confirms the systematic benchmarking framework but provides no statement about a 12% improvement over the strongest baseline.",
+      "evidence_in_source": true
+    }
+  ],
+  "stats": {
+    "calls": 9,
+    "prompt_tokens": 5652,
+    "completion_tokens": 2692,
+    "seconds": 12.915313243865967
+  }
+}

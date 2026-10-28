@@ -1,0 +1,269 @@
+{
+  "topic": "evaluation of RAG systems",
+  "writer_model": "openai/gpt-oss-120b",
+  "writer_style": "strict",
+  "papers": [
+    {
+      "id": "P1",
+      "title": "RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework",
+      "abstract": "Retrieval-Augmented Generation (RAG) is a powerful approach that enables large language models (LLMs) to incorporate external knowledge. However, evaluating the effectiveness of RAG systems in specialized scenarios remains challenging due to the high costs of data construction and the lack of suitable evaluation metrics. This paper introduces RAGEval, a framework designed to assess RAG systems across diverse scenarios by generating high-quality documents, questions, answers, and references through a schema-based pipeline. With a focus on factual accuracy, we propose three novel metrics: Completeness, Hallucination, and Irrelevance to evaluate LLM generated responses rigorously. Experimental results show that RAGEval outperforms zero-shot and one-shot methods in terms of clarity, safety, conformity, and richness of generated samples. Furthermore, the use of LLMs for scoring the proposed metrics demonstrates a high level of consistency with human evaluations. RAGEval establishes a new paradigm for evaluating RAG systems in real-world applications. The code and dataset are released at https://github.com/OpenBMB/RAGEval.",
+      "url": "http://arxiv.org/abs/2408.01262v5",
+      "year": 2024,
+      "source": "arxiv"
+    },
+    {
+      "id": "P2",
+      "title": "Deepchecks: Evaluating Retrieval-Augmented Generation (RAG)",
+      "abstract": "Large Language Models (LLMs) augmented with Retrieval-Augmented Generation (RAG) techniques are revolutionizing applications across multiple domains, such as healthcare, finance, and customer service. Despite their potential, evaluating RAG systems remains a complex challenge due to the stochastic nature of generated outputs and the intricate interplay between retrieval and generation components. This paper introduces Deepchecks, a comprehensive framework tailored for evaluating RAG applications. Deepchecks' evaluation framework addresses RAG applications evaluation through a multi-faceted approach, root cause analysis and production monitoring. By ensuring alignment with application-specific requirements, Deepchecks framework provides a robust foundation for assessing reliability, relevance, and user satisfaction in RAG systems.",
+      "url": "https://doi.org/10.48550/arxiv.2605.14488",
+      "year": 2026,
+      "source": "openalex"
+    },
+    {
+      "id": "P3",
+      "title": "EvaRAG: Evaluating Advanced RAG Techniques With Indexing and Distance Metrics",
+      "abstract": "Retrieval Augmented Generation (RAG) has emerged as a powerful paradigm for enhancing large language models (LLMs) with external knowledge. Yet, the performance of RAG pipelines is susceptible to design choices across retrieval, similarity metrics, indexing, and reranking. Despite growing adoption, little systematic work has explored the trade-offs between retrieval quality, semantic accuracy, computational efficiency, and cost in RAG systems. This study addresses this gap by conducting a comprehensive evaluation of RAG configurations across multiple dimensions. We propose a benchmarking framework that systematically varies retrievers (Fusion, HyDe, Hierarchical, SCaNN), indexing methods (HNSW, IVF, Flat), similarity metrics (Cosine, Inner Product, L2), and rerankers (BGE, minilm) over datasets of three scales (small, medium, and large). Performance is assessed through coverage, recall, MRR, and nDCG, while semantic quality is measured using correctness, faithfulness, and relevance. Efficiency is quantified via latency, throughput, and computational cost. Our experiments reveal that HNSW–IP–Fusion–minilm achieves the strongest semantic performance, with Coverage Retrieval of 0.942, Correctness of 0.909, and Faithfulness of 0.970, making it ideal for accuracy-critical tasks. Conversely, IVF–L2–Hierarchical demonstrates the lowest latency (1.736 ns) and cost, making it suitable for real-time deployments. Reranker analysis shows modest but consistent gains for minilm over BGE, while HyDe excels in precision at the expense of efficiency. Notably, no single configuration dominates; optimal designs depend on the application’s needs, whether it is maximizing semantic accuracy, minimizing latency, or striking a balance between the two. By demonstrating concrete trade-offs, this work provides a practical foundation for scaling RAG pipelines across diverse domains, including information retrieval, enterprise search, and knowledge-intensive reasoning.",
+      "url": "https://doi.org/10.1109/access.2025.3646665",
+      "year": 2025,
+      "source": "openalex"
+    },
+    {
+      "id": "P4",
+      "title": "RAGChecker: A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation",
+      "abstract": "Despite Retrieval-Augmented Generation (RAG) showing promising capability in leveraging external knowledge, a comprehensive evaluation of RAG systems is still challenging due to the modular nature of RAG, evaluation of long-form responses and reliability of measurements. In this paper, we propose a fine-grained evaluation framework, RAGChecker, that incorporates a suite of diagnostic metrics for both the retrieval and generation modules. Meta evaluation verifies that RAGChecker has significantly better correlations with human judgments than other evaluation metrics. Using RAGChecker, we evaluate 8 RAG systems and conduct an in-depth analysis of their performance, revealing insightful patterns and trade-offs in the design choices of RAG architectures. The metrics of RAGChecker can guide researchers and practitioners in developing more effective RAG systems. This work has been open sourced at https://github.com/amazon-science/RAGChecker.",
+      "url": "http://arxiv.org/abs/2408.08067v2",
+      "year": 2024,
+      "source": "arxiv"
+    },
+    {
+      "id": "P5",
+      "title": "RAGe: A Retrieval-Augmented Generation Evaluation Framework",
+      "abstract": "Deploying Large Language Model (LLM) applications, particularly those relying on Retrieval-Augmented Generation (RAG), remains challenging due to high computational demands, outdated knowledge bases, and the need to manually select optimal pipeline components. In this work, we propose a modular framework for benchmarking and guiding the efficient development of RAG applications by focusing on resource telemetry and component recommendation, suggesting the best components for a domain-specific dataset. Our approach leverages core techniques in LLM applications, including document chunking, vector databases, embedding models, and retrievers, to evaluate trade-offs among accuracy, efficiency, and scalability. By directly correlating retrieval and generation quality with underlying hardware constraints, RAGe supports researchers to identify the most effective, domain-specific RAG setups for their specific operational needs, facilitating rapid prototyping even on consumer-grade hardware.",
+      "url": "https://doi.org/10.48550/arxiv.2605.27445",
+      "year": 2026,
+      "source": "openalex"
+    },
+    {
+      "id": "P6",
+      "title": "EncouRAGe: Evaluating RAG Local, Fast, and Reliable",
+      "abstract": "We introduce EncouRAGe, a comprehensive Python framework designed to streamline the development and evaluation of Retrieval-Augmented Generation (RAG) systems using Large Language Models (LLMs) and Embedding Models. EncouRAGe comprises five modular and extensible components: Type Manifest, RAG Factory, Inference, Vector Store, and Metrics, facilitating flexible experimentation and extensible development. The framework emphasizes scientific reproducibility, diverse evaluation metrics, and local deployment, enabling researchers to efficiently assess datasets within RAG workflows. This paper presents implementation details and an extensive evaluation across multiple benchmark datasets, including 25k QA pairs and over 51k documents. Our results show that RAG still underperforms compared to the Oracle Context, while Hybrid BM25 consistently achieves the best results across all four datasets. We further examine the effects of reranking, observing only marginal performance improvements accompanied by higher response latency.",
+      "url": "http://arxiv.org/abs/2511.04696v1",
+      "year": 2025,
+      "source": "arxiv"
+    },
+    {
+      "id": "P7",
+      "title": "Revisiting the Solution of Meta KDD Cup 2024: CRAG",
+      "abstract": "This paper presents the solution of our team APEX in the Meta KDD CUP 2024: CRAG Comprehensive RAG Benchmark Challenge. The CRAG benchmark addresses the limitations of existing QA benchmarks in evaluating the diverse and dynamic challenges faced by Retrieval-Augmented Generation (RAG) systems. It provides a more comprehensive assessment of RAG performance and contributes to advancing research in this field. We propose a routing-based domain and dynamic adaptive RAG pipeline, which performs specific processing for the diverse and dynamic nature of the question in all three stages: retrieval, augmentation, and generation. Our method achieved superior performance on CRAG and ranked 2nd for Task 2&3 on the final competition leaderboard. Our implementation is available at this link: https://github.com/USTCAGI/CRAG-in-KDD-Cup2024.",
+      "url": "http://arxiv.org/abs/2409.15337v1",
+      "year": 2024,
+      "source": "arxiv"
+    },
+    {
+      "id": "P8",
+      "title": "RAG Playground: A Framework for Systematic Evaluation of Retrieval Strategies and Prompt Engineering in RAG Systems",
+      "abstract": "We present RAG Playground, an open-source framework for systematic evaluation of Retrieval-Augmented Generation (RAG) systems. The framework implements and compares three retrieval approaches: naive vector search, reranking, and hybrid vector-keyword search, combined with ReAct agents using different prompting strategies. We introduce a comprehensive evaluation framework with novel metrics and provide empirical results comparing different language models (Llama 3.1 and Qwen 2.5) across various retrieval configurations. Our experiments demonstrate significant performance improvements through hybrid search methods and structured self-evaluation prompting, achieving up to 72.7% pass rate on our multi-metric evaluation framework. The results also highlight the importance of prompt engineering in RAG systems, with our custom-prompted agents showing consistent improvements in retrieval accuracy and response quality.",
+      "url": "http://arxiv.org/abs/2412.12322v1",
+      "year": 2024,
+      "source": "arxiv"
+    },
+    {
+      "id": "P9",
+      "title": "THELMA: Task Based Holistic Evaluation of Large Language Model Applications-RAG Question Answering",
+      "abstract": "We propose THELMA (Task Based Holistic Evaluation of Large Language Model Applications), a reference free framework for RAG (Retrieval Augmented generation) based question answering (QA) applications. THELMA consist of six interdependent metrics specifically designed for holistic, fine grained evaluation of RAG QA applications. THELMA framework helps developers and application owners evaluate, monitor and improve end to end RAG QA pipelines without requiring labelled sources or reference responses.We also present our findings on the interplay of the proposed THELMA metrics, which can be interpreted to identify the specific RAG component needing improvement in QA applications.",
+      "url": "http://arxiv.org/abs/2505.11626v2",
+      "year": 2025,
+      "source": "arxiv"
+    },
+    {
+      "id": "P10",
+      "title": "Coverage, Not Averages: Semantic Stratification for Trustworthy Retrieval Evaluation",
+      "abstract": "Retrieval quality is the primary bottleneck for accuracy and robustness in retrieval-augmented generation (RAG). Current evaluation relies on heuristically constructed query sets, which introduce a hidden intrinsic bias. We formalize retrieval evaluation as a statistical estimation problem, showing that metric reliability is fundamentally limited by the evaluation-set construction. We further introduce \\emph{semantic stratification}, which grounds evaluation in corpus structure by organizing documents into an interpretable global space of entity-based clusters and systematically generating queries for missing strata. This yields (1) formal semantic coverage guarantees across retrieval regimes and (2) interpretable visibility into retrieval failure modes. Experiments across multiple benchmarks and retrieval methods validate our framework. The results expose systematic coverage gaps, identify structural signals that explain variance in retrieval performance, and show that stratified evaluation yields more stable and transparent assessments while supporting more trustworthy decision-making than aggregate metrics.",
+      "url": "http://arxiv.org/abs/2604.20763v1",
+      "year": 2026,
+      "source": "arxiv"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "text": "RAGEval generates high-quality documents, questions, answers, and references through a schema-based pipeline.",
+      "paper_id": "P1"
+    },
+    {
+      "id": "C2",
+      "text": "RAGEval proposes three novel metrics—Completeness, Hallucination, and Irrelevance—to evaluate factual accuracy of LLM-generated responses.",
+      "paper_id": "P1"
+    },
+    {
+      "id": "C3",
+      "text": "Experimental results indicate that RAGEval outperforms zero-shot and one-shot methods in clarity, safety, conformity, and richness of generated samples.",
+      "paper_id": "P1"
+    },
+    {
+      "id": "C4",
+      "text": "Scoring the proposed metrics with LLMs demonstrates a high level of consistency with human evaluations.",
+      "paper_id": "P1"
+    },
+    {
+      "id": "C5",
+      "text": "Deepchecks provides a comprehensive framework tailored for evaluating RAG applications across multiple domains.",
+      "paper_id": "P2"
+    },
+    {
+      "id": "C6",
+      "text": "The framework employs a multi-faceted approach that includes root cause analysis and production monitoring.",
+      "paper_id": "P2"
+    },
+    {
+      "id": "C7",
+      "text": "Deepchecks ensures alignment with application-specific requirements when assessing RAG systems.",
+      "paper_id": "P2"
+    },
+    {
+      "id": "C8",
+      "text": "The framework assesses reliability, relevance, and user satisfaction in RAG systems.",
+      "paper_id": "P2"
+    },
+    {
+      "id": "C9",
+      "text": "EvaRAG systematically varies retrievers, indexing methods, similarity metrics, and rerankers to benchmark RAG configurations.",
+      "paper_id": "P3"
+    },
+    {
+      "id": "C10",
+      "text": "The HNSW–IP–Fusion–minilm configuration achieves the highest semantic performance with Coverage Retrieval of 0.942, Correctness of 0.909, and Faithfulness of 0.970.",
+      "paper_id": "P3"
+    },
+    {
+      "id": "C11",
+      "text": "The IVF–L2–Hierarchical configuration demonstrates the lowest latency of 1.736 ns and lowest computational cost.",
+      "paper_id": "P3"
+    },
+    {
+      "id": "C12",
+      "text": "Reranker analysis shows that minilm provides modest but consistent gains over BGE, while HyDe attains higher precision at the expense of efficiency.",
+      "paper_id": "P3"
+    },
+    {
+      "id": "C13",
+      "text": "RAGChecker incorporates a suite of diagnostic metrics for both retrieval and generation modules of RAG systems.",
+      "paper_id": "P4"
+    },
+    {
+      "id": "C14",
+      "text": "Meta-evaluation indicates that RAGChecker’s metrics have significantly better correlations with human judgments than other evaluation metrics.",
+      "paper_id": "P4"
+    },
+    {
+      "id": "C15",
+      "text": "Using RAGChecker, eight RAG systems were evaluated, revealing insightful patterns and trade-offs in architecture design choices.",
+      "paper_id": "P4"
+    },
+    {
+      "id": "C16",
+      "text": "The metrics provided by RAGChecker can guide researchers and practitioners in developing more effective RAG systems.",
+      "paper_id": "P4"
+    },
+    {
+      "id": "C17",
+      "text": "RAGe is a modular framework that benchmarks RAG applications by focusing on resource telemetry and component recommendation.",
+      "paper_id": "P5"
+    },
+    {
+      "id": "C18",
+      "text": "RAGe suggests the optimal pipeline components for a given domain-specific dataset.",
+      "paper_id": "P5"
+    },
+    {
+      "id": "C19",
+      "text": "The framework directly correlates retrieval and generation quality with underlying hardware constraints.",
+      "paper_id": "P5"
+    },
+    {
+      "id": "C20",
+      "text": "RAGe enables rapid prototyping of RAG setups even on consumer‑grade hardware.",
+      "paper_id": "P5"
+    },
+    {
+      "id": "C21",
+      "text": "EncouRAGe provides five modular components—Type Manifest, RAG Factory, Inference, Vector Store, and Metrics—to facilitate flexible RAG experimentation.",
+      "paper_id": "P6"
+    },
+    {
+      "id": "C22",
+      "text": "Evaluation on benchmark datasets comprising 25 k QA pairs and over 51 k documents shows that RAG underperforms compared to the Oracle Context.",
+      "paper_id": "P6"
+    },
+    {
+      "id": "C23",
+      "text": "Hybrid BM25 consistently achieves the best results across all four evaluated datasets.",
+      "paper_id": "P6"
+    },
+    {
+      "id": "C24",
+      "text": "Incorporating reranking yields only marginal performance improvements while increasing response latency.",
+      "paper_id": "P6"
+    },
+    {
+      "id": "C25",
+      "text": "The CRAG benchmark provides a more comprehensive assessment of RAG performance than existing QA benchmarks.",
+      "paper_id": "P7"
+    },
+    {
+      "id": "C26",
+      "text": "The proposed routing‑based domain and dynamic adaptive RAG pipeline performs specific processing for diverse questions in retrieval, augmentation, and generation stages.",
+      "paper_id": "P7"
+    },
+    {
+      "id": "C27",
+      "text": "The method achieved superior performance on the CRAG benchmark and ranked second for Task 2 and Task 3 in the competition.",
+      "paper_id": "P7"
+    },
+    {
+      "id": "C28",
+      "text": "The implementation of the CRAG solution is publicly available.",
+      "paper_id": "P7"
+    },
+    {
+      "id": "C29",
+      "text": "RAG Playground implements and compares three retrieval approaches: naive vector search, reranking, and hybrid vector‑keyword search.",
+      "paper_id": "P8"
+    },
+    {
+      "id": "C30",
+      "text": "The framework integrates ReAct agents with different prompting strategies to evaluate the impact of prompt engineering.",
+      "paper_id": "P8"
+    },
+    {
+      "id": "C31",
+      "text": "Hybrid search methods combined with structured self‑evaluation prompting achieve up to a 72.7 % pass rate on the multi‑metric evaluation framework.",
+      "paper_id": "P8"
+    },
+    {
+      "id": "C32",
+      "text": "Custom‑prompted agents consistently improve retrieval accuracy and response quality compared to baseline prompts.",
+      "paper_id": "P8"
+    },
+    {
+      "id": "C33",
+      "text": "THELMA is a reference‑free framework that evaluates RAG question answering applications using six interdependent metrics.",
+      "paper_id": "P9"
+    },
+    {
+      "id": "C34",
+      "text": "THELMA enables developers to evaluate, monitor, and improve end‑to‑end RAG QA pipelines without requiring labeled sources or reference responses.",
+      "paper_id": "P9"
+    },
+    {
+      "id": "C35",
+      "text": "The interplay of THELMA metrics can be interpreted to identify the specific RAG component that needs improvement.",
+      "paper_id": "P9"
+    },
+    {
+      "id": "C36",
+      "text": "THELMA provides a holistic, fine‑grained evaluation of RAG QA applications.",
+      "paper_id": "P9"
+    }
+  ]
+}

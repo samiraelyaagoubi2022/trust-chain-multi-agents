@@ -1,0 +1,18 @@
+{
+    "n_claims":  15,
+    "kappa_cohen":  0.77,
+    "interpretation":  "substantiel (0.60-0.80)",
+    "disagreements":  [
+                          {
+                              "claim_id":  "C27",
+                              "annotateur_1":  "partielle",
+                              "annotateur_2":  "etayee",
+                              "claim":  "The method achieved superior performance on the CRAG benchmark and ranked second for Task 2 and Task 3 in the competition.",
+                              "resolution":  "annotateur_2 correct (le claim dit \u0027The method\u0027, pas \u0027CRAG\u0027)"
+                          }
+                      ],
+    "files":  {
+                  "gold":  "eval/gold_15.json",
+                  "blind":  "eval/blind_sample.json"
+              }
+}
